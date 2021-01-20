@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mju-application</title>
+    <script src="https://kit.fontawesome.com/793e188bd5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo-img"></div>
+    </nav>
+    <div class="main">
+        <table>
+            <tr>
+                <td class="news" onclick="gonews()">뉴스센터</td>
+                <td class="community" onclick="gocommunity()">커뮤니티</td>
+                <td class="library" rowspan="2" onclick="golibrary()">도서관</td>
+            </tr>
+            <tr>
+                <td class="cam-info" onclick="gocaminfo()">캠퍼스정보</td>
+                <td class="cam-intro" onclick="gocamintro()">대학소개</td>
+            </tr>
+            <tr>
+                <td class="mbs" onclick="gombs()">명대방송국</td>
+                <td class="work-info" onclick="goworkinfo()">교직원정보</td>
+                <td class="stdent-info" onclick="gomyiweb()">학생정보</td>
+            </tr>
+            <tr>
+                <td class="eat" colspan="2" onclick="goeat()">식단안내</td>
+                <td class="chatbot" onclick="gochatbot()">챗봇</td>
+            </tr>
+            <tr>
+                <td class="virtual" rowspan="2">가상대학<br>
+                <ul>
+                    <li><a href="http://lms.mju.ac.kr/ilos/main/main_form.acl">online class</a></li>
+                    <li><a href="http://www.kcucon.or.kr/">kcu</a></li>
+                </ul></td>
+                <td class="eclass" onclick="goeclass()">eclass</td>
+                <td class="student" onclick="gostudent()">학생증명서발급</td>
+            </tr>
+            <tr>
+                <td class="support" colspan="2" onclick="gosupport()">취업지원</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div class="facebook"><i class="fab fa-facebook-square" onclick="goface()"></i></div>
+        <div class="youtube"><i class="fab fa-youtube-square" onclick="goyou()"></i></div>
+        <div class="insta"><i class="fab fa-instagram-square" onclick="goinsta()"></i></div>
+    </footer>
+</body>
+</html>
